@@ -90,7 +90,6 @@ public class Application
 {
     public void Run()
     {
-        // Пример использования
         Rectangle rectangle = new Rectangle { X = 10, Y = 15, Color = "Red", Height = 12, Width = 12 };
         Console.WriteLine($"Rectangle: X={rectangle.X}, Y={rectangle.Y}, Color={rectangle.Color}, Height={rectangle.Height}, Width={rectangle.Width}");
         Console.WriteLine();
