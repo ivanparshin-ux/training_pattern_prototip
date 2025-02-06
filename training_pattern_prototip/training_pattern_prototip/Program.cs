@@ -4,6 +4,7 @@ public abstract class Shape
     public int Y { get; set; }
     public string Color { get; set; }
 
+    
     protected Shape() { }
 
     protected Shape(Shape source)
